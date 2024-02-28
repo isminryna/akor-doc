@@ -1,0 +1,914 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Membeli Aset Tetap (Fixed Asset) &#8212; Documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=bd9e20870c6007c4c509"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'business-alur/pembelian-fixed-asset';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Langkah-langkah Membuat Simpanan" href="melakukan-simpanan.html" />
+    <link rel="prev" title="Inisialisasi Aset Tetap (Fixed Asset)" href="fixed-asset.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <header>
+  
+    <div class="bd-header navbar navbar-expand-lg bd-navbar">
+    </div>
+  
+  </header>
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro/intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/AKOR.png" class="logo__image only-light" alt="Documentation - Home"/>
+    <script>document.write(`<img src="../_static/AKOR.png" class="logo__image only-dark" alt="Documentation - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro/intro.html">
+                    AKOR
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="business-alur.html">Alur Bisnis</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../memulai/memulai.html">Memulai Menggunakan</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../memulai/buat-user-admin.html">Membuat Admin Baru</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../memulai/clear-initial-data.html">Menghapus Inisialisasi Data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ubah-nama-perusahaan.html">Mengubah Nama Perusahaan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="buat-saldo-awal.html">Membuat Saldo Awal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="inisialisasi-kas-bank.html">Menginisialisasi Kas atau Bank</a></li>
+<li class="toctree-l2"><a class="reference internal" href="master-barang.html">Membuat Master Barang</a></li>
+<li class="toctree-l2"><a class="reference internal" href="inisialisasi-stok.html">Menginisialisi Stok</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaksi-jual-langsung.html">Melakukan Transaksi Jual Langsung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaksi-melalui-so.html">Melakukan Transaksi Melalui SO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pembelian-langsung.html">Melakukan Pembelian Langsung</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="pembelian-po.html">Melakukan Pembelian PO (Pre-Order)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaksi-biaya-operasional.html">Melakukan Transaksi Biaya Operasional</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laporan-keuangan.html">Membuat Laporan Keuangan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="penggajian-karyawan.html">Melakukan Penggajian Karyawan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fixed-asset.html">Menginisialisasi Aset Tetap (Fixed Asset) </a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Melakukan Pembelian Aset Tetap (Fixed Asset)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="melakukan-simpanan.html">Memasukan Simpanan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="melakukan-pinjaman.html">Memasukan Peminjaman</a></li>
+<li class="toctree-l2"><a class="reference internal" href="melakukan-penarikan.html">Melakukan Tarik Simpanan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="melakukan-settlement.html">Melakukan Settlement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mengajukan-pinjaman-mandiri.html">Pengajuan Pinjaman Mandiri</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mengajukan-tarik-simpan-mandiri.html">Pengajuan Tarik Simpan Mandiri</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../modules/modul-pengenalan.html">Modules</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../modules/membership/membersh.html">Menu Membership</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/membership/member-master.html">Member Master Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/membership/pinjaman.html">Pinjaman</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/membership/simpanan.html">Simpanan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/membership/member-selfservice.html">Member Self-service</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/membership/membership-setting.html">Membership Setting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/membership/reporting.html">Reporting</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../modules/accounting/accountin.html">Menu Accounting</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/accounting/journal.html">Journal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/accounting/payable.html">Payable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/accounting/receivable.html">Receivable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/accounting/fixed-asset.html">Fixed Asset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/accounting/internal-account.html">Internal Account</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/accounting/accounting-setting.html">Accounting Setting</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../modules/personel/personell.html">Menu Personnel Management</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/personel/employee-data.html">Employee Data</a></li>
+
+
+<li class="toctree-l3"><a class="reference internal" href="../modules/personel/payroll-process.html">Payroll Process</a></li>
+
+
+
+
+<li class="toctree-l3"><a class="reference internal" href="../modules/personel/hr-setting.html">HR Setting</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../modules/procurement/procure.html">Menu Procurement</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/procurement/direct-purchase.html">Direct Purchase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/procurement/purchase-order.html">Purchase Order</a></li>
+
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../modules/product%20management/product-manageme.html">Menu Product Management</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/product%20management/product-master.html">Product Master</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/product%20management/product-setting.html">Product Setting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/product%20management/product-transfer.html">Product Transfer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/product%20management/stock-overview.html">Stock Overview</a></li>
+
+
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../modules/sales/sale.html">Menu Sales</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-9"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../modules/sales/direct-sales.html">Direct Sales</a></li>
+
+<li class="toctree-l3"><a class="reference internal" href="../modules/sales/sales-order.html">Sales Order</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../modules/sales/sales-setting.html">Sales Setting</a></li>
+
+
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/business-alur/pembelian-fixed-asset.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Membeli Aset Tetap (Fixed Asset)</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pembelian-fixed-asset">Pembelian Fixed Asset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-dokumen-pembelian-fixed-asset">Membuat Dokumen Pembelian Fixed Asset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#penerimaan-barang-fixed-asset-melalui-product-transfer">Penerimaan Barang Fixed Asset Melalui Product Transfer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#akuisisi-fixed-asset">Akuisisi Fixed Asset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pembayaran-pembelian-fixed-asset">Pembayaran Pembelian Fixed Asset</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="membeli-aset-tetap-fixed-asset">
+<h1>Membeli Aset Tetap (Fixed Asset)<a class="headerlink" href="#membeli-aset-tetap-fixed-asset" title="Permalink to this heading">#</a></h1>
+<section id="pembelian-fixed-asset">
+<h2>Pembelian Fixed Asset<a class="headerlink" href="#pembelian-fixed-asset" title="Permalink to this heading">#</a></h2>
+<p>Pembelian fixed asset merupakan pembelian barang untuk operasional sebuah bisnis atau perusahaan yang bersifat jangka panjang. Contoh barang fixed asset seperti furniture, elektronik, dan kendaraan. Pembelian barang fixed asset melewati beberapa tahap yaitu:</p>
+<ol class="arabic simple">
+<li><p>Membuat Dokumen Pembelian Fixed Asset
+Dokumen purchase order merupakan bukti pemesanan yang digunakan untuk menunjukkan barang yang akan dibeli kepada pihak penjual.</p></li>
+<li><p>Penerimaan Barang Fixed Asset Melalui Product Transfer
+Penerimaan barang fixed aset dilakukan setelah dokumen PO telah disetujui oleh pihak penjual barang, maka akan diterima melalui product transfer.</p></li>
+<li><p>Akuisisi Fixed Asset
+Akuisisi fixed asset merupakan pencatatan barang yang dilakukan setelah barang diterima kemudian akan diakusisi menjadi asset perusahaan. Pada transaksi akusisi fixed asset digunakan untuk melakukan proses depresiasi atau nilai penyusutan. Proses depresiasi dilakukan, karena penggunaan fixed asset secara terus menerus akan mengakibatkan penurunan kualitas, sehingga nilai dari fixed asset juga ikut menurun.</p></li>
+<li><p>Pembayaran Pembelian Fixed Asset
+Setelah pesanan telah diterima dan sudah sesuai dengan pesanan, maka pembeli perlu melakukan pembayaran tersebut sesuai jangka waktu pembayaran yang telah disepakati oleh penjual dan pembeli, sehingga pembayaran dilakukan sebelum tanggal jatuh tempo pembayaran.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="membuat-dokumen-pembelian-fixed-asset">
+<h2>Membuat Dokumen Pembelian Fixed Asset<a class="headerlink" href="#membuat-dokumen-pembelian-fixed-asset" title="Permalink to this heading">#</a></h2>
+<ol class="arabic">
+<li><p>Untuk membuat transaksi pembelian Fixed Asset dapat dilakukan di dalam menu <strong>Purchase Order (PPO)</strong> yang terdapat di dalam module <strong>Procurement</strong>.</p>
+<p><img alt="1" src="../_images/19.jpg" /></p>
+</li>
+<li><p>Kemudian untuk membuat dokumen PO yang baru, dapat dengan klik tombol <strong>New</strong>.</p>
+<p><img alt="2" src="../_images/217.png" /></p>
+</li>
+<li><p>Setelah itu, akan ditampilkan form untuk membuat dokumen <strong>PO</strong>. Isi setiap kolom-kolom yang ada.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/39.png" /></p>
+</li>
+</ol>
+<p>Tombol <strong>Add</strong> untuk memasukan barang-barang yang akan di pesan atau menambahkan record. Tombol <strong>Remove</strong> untuk menghapus barang dari daftar barang yang akan dibeli atau menghapus record.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Semua kolom yang bertanda (*) wajib diisi</p>
+</div>
+<p><strong>Informasi Kolom:</strong></p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p>No.</p></th>
+<th class="head"><p>Kolom</p></th>
+<th class="head"><p>Keterangan</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p>1</p></td>
+<td><p>Company</p></td>
+<td><p>Kode Perusahaan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>2</p></td>
+<td><p>Business Area</p></td>
+<td><p>Kode Business Area</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>3</p></td>
+<td><p>Supplier</p></td>
+<td><p>Kode Supplier</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>4</p></td>
+<td><p>Currency</p></td>
+<td><p>Mata Uang yang Digunakan</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>5</p></td>
+<td><p>Document Number</p></td>
+<td><p>Nomor Dokumen</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>6</p></td>
+<td><p>Document Date</p></td>
+<td><p>Tanggal Pembuatan Dokumen</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>7</p></td>
+<td><p>Due Date</p></td>
+<td><p>Tanggal Paling Lambat Penerimaan Barang</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>8</p></td>
+<td><p>Document Ref</p></td>
+<td><p>Nomor Dokumen Referensi</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>9</p></td>
+<td><p>Description</p></td>
+<td><p>Keterangan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>10</p></td>
+<td><p>Seq</p></td>
+<td><p>Nomor Urut</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>11</p></td>
+<td><p>Product ID</p></td>
+<td><p>Nomor Produk</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>12</p></td>
+<td><p>Product Name</p></td>
+<td><p>Nama Produk</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>13</p></td>
+<td><p>Unit of Measure</p></td>
+<td><p>Satuan Unit</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>14</p></td>
+<td><p>Unit Price</p></td>
+<td><p>Harga Produk</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>15</p></td>
+<td><p>Quantity</p></td>
+<td><p>Jumlah Produk</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>16</p></td>
+<td><p>Total Price</p></td>
+<td><p>Total Harga Belanjaan</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>17</p></td>
+<td><p>Value Added Tax</p></td>
+<td><p>Pajak Pertambahan Nilai (PPN)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>18</p></td>
+<td><p>Business Center</p></td>
+<td><p>Tempat Bisnis Berlangsung</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="4">
+<li><p>Setelah form sudah diisi dengan lengkap, maka klik tombol <strong>Save</strong> untuk menyimpan transaksi. Kemudian akan muncul notifkasi bahwa data berhasil tersimpan.</p></li>
+</ol>
+</section>
+<section id="penerimaan-barang-fixed-asset-melalui-product-transfer">
+<h2>Penerimaan Barang Fixed Asset Melalui Product Transfer<a class="headerlink" href="#penerimaan-barang-fixed-asset-melalui-product-transfer" title="Permalink to this heading">#</a></h2>
+<ol class="arabic">
+<li><p>Barang fixed asset yang sudah dipesan, akan dikirimkan oleh supplier. Setelah barang sampai dan telah diterima akan dimasukkan ke dalam Product Transfer, untuk membuat dokumen <strong>Product Transfer</strong> dapat dilakukan di dalam menu <strong>Product Transfer (PRTS)</strong> yang ada di dalam module <strong>Product Management</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/42.jpg" /></p>
+</li>
+<li><p>Kemudian akan ditampilkan daftar dokumen yang terdapat di dalam menu Product Transfer. Untuk membuat dokumen baru, klik tombol <strong>New</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/58.png" /></p>
+</li>
+<li><p>Kemudian akan muncul form pilihan tipe transaksi yang akan digunakan, untuk pembelian fixed asset menggunakan Receive from Supplier, selanjutnya klik <strong>Next</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/69.png" /></p>
+</li>
+<li><p>Isi kolom sesuai keterangan yang terdapat dalam kolom, kemudian pilih nomor PO sesuai nomor dokumen PO pembelian fixed asset tersebut. Maka akan tertera barang fixed asset yang dibeli. Kemudian setelah sudah terisi semua, maka klik tombol <strong>Save</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/78.png" /></p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Semua kolom yang bertanda (*) wajib diisi</p>
+</div>
+<p><strong>Informasi Kolom:</strong></p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p>No.</p></th>
+<th class="head"><p>Field</p></th>
+<th class="head"><p>Keterangan</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p>1</p></td>
+<td><p>Company</p></td>
+<td><p>Kode Perusahaan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>2</p></td>
+<td><p>Business Area</p></td>
+<td><p>Kode Business Area</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>3</p></td>
+<td><p>Supplier</p></td>
+<td><p>Kode Supplier</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>4</p></td>
+<td><p>Storage</p></td>
+<td><p>Tempat Penyimpanan Barang</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>5</p></td>
+<td><p>Currency</p></td>
+<td><p>Mata Uang Yang Digunakan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>6</p></td>
+<td><p>Document Number</p></td>
+<td><p>Nomor Dokumen</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>7</p></td>
+<td><p>Document Date</p></td>
+<td><p>Tanggal Pembuatan Dokumen</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>8</p></td>
+<td><p>Description</p></td>
+<td><p>Keterangan Transaksi yang Dibuat</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>9</p></td>
+<td><p>PO Number</p></td>
+<td><p>Nomor PO yang Akan Digunakan</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic" start="5">
+<li><p>Setelah melakukan transaksi product transfer, maka akan terbentuk jurnal penerimaan barang dari product transfer. Berikut jurnal yang terbentuk dari dokumen product transfer.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/88.png" /></p>
+</li>
+<li><p>Kemudian kembali ke menu <strong>Purchase Order (PPO)</strong> untuk melakukan Post Payable. Klik tombol <strong>Post Payable</strong> untuk melakukan pembayaran.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/97.png" /></p>
+</li>
+<li><p>Maka akan muncul notifikasi konfirmasi untuk membuat AP. Apabila ingin <strong>Post Payable</strong>, klik tombol <strong>OK</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/101.jpg" /></p>
+</li>
+<li><p>Apabila ingin membatalkan <strong>Post Payable</strong>, maka klik tombol <strong>Cancel</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/111.jpg" /></p>
+</li>
+<li><p>Setelah melakukan <strong>Post Payable</strong> pada <strong>PO fixed asset</strong>, maka akan terbentuk journal dari dokumen PO fixed asset. Berikut jurnal yang terbentuk dari <strong>Post Payable</strong> pada <strong>PO fixed asset</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/125.png" /></p>
+</li>
+</ol>
+</section>
+<section id="akuisisi-fixed-asset">
+<h2>Akuisisi Fixed Asset<a class="headerlink" href="#akuisisi-fixed-asset" title="Permalink to this heading">#</a></h2>
+<ol class="arabic">
+<li><p>Setelah barang sudah sampai dan diterima dari supplier, maka barang tersebut akan diakui sebagai asset. Hal ini dilakukan di dalam menu Fixed Asset yang terdapat pada module Accounting. Setelah masuk ke dalam module Accounting, klik menu <strong>Fixed Asset (ASM)</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/132.jpg" /></p>
+</li>
+<li><p>Kemudian akan ditampilkan menu <strong>Fixed Asset</strong>. Barang yang telah diterima harus diidentifikasi terlebih dahulu di dalam menu Fixed Asset. Dengan klik tombol <strong>+</strong> untuk menambahkan data fixed asset yang baru.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/141.jpg" /></p>
+</li>
+<li><p>Setelah itu, akan ditampilkan form untuk menambahkan data fixed asset yang baru. Isi seluruh kolom-kolom yang ada.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/153.png" /></p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Semua kolom yang bertanda (*) wajib diisi</p>
+</div>
+<p>Informasi Kolom:</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p>No.</p></th>
+<th class="head"><p>Field</p></th>
+<th class="head"><p>Keterangan</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p>1</p></td>
+<td><p>Asset ID</p></td>
+<td><p>Kode Barang Aset</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>2</p></td>
+<td><p>Asset Name</p></td>
+<td><p>Nama Barang Aset</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>3</p></td>
+<td><p>Asset Class</p></td>
+<td><p>Jenis Barang Aset</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>4</p></td>
+<td><p>Serial Number</p></td>
+<td><p>Keterangan Barang Aset</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>5</p></td>
+<td><p>Description</p></td>
+<td><p>Keterangan Transaksi yang Dibuat</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic" start="4">
+<li><p>Klik tombol <strong>Save</strong> untuk menyimpan data fixed asset.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/162.png" /></p>
+</li>
+<li><p>Setelah berhasil data disimpan, maka klik tombol <strong>Transaction</strong> untuk melakukan Akuisisi Fixed Asset.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/171.png" /></p>
+</li>
+<li><p>Kemudian klik tombol <strong>New</strong> untuk membuat transaksi baru.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/181.png" /></p>
+</li>
+<li><p>Maka akan tampil form untuk menambahkan transaksi baru. Pada bagian Txn. Type dipilih <strong>Acquisition</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/191.png" /></p>
+</li>
+<li><p>Lengkapi dan isi semua kolom-kolom yang ada, kemudian klik tombol <strong>Save</strong> maka data transaksi akuisisi fixed asset berhasil ditambahkan.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/201.png" /></p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Semua kolom yang bertanda (*) wajib diisi</p>
+</div>
+<p><strong>Informasi Kolom:</strong></p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-right"><p>No.</p></th>
+<th class="head"><p>Kolom</p></th>
+<th class="head"><p>Keterangan</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-right"><p>1</p></td>
+<td><p>Txn. Type</p></td>
+<td><p>Jenis Transaksi yang Dilakukan</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>2</p></td>
+<td><p>Company</p></td>
+<td><p>Kode Perusahaan</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>3</p></td>
+<td><p>Business Area</p></td>
+<td><p>Kode Area Bisnis</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>4</p></td>
+<td><p>PO. Number</p></td>
+<td><p>Nomor Dokumen Purchase Order</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>5</p></td>
+<td><p>Business Center</p></td>
+<td><p>Kode Tempat Bisnis Berlangsung</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>6</p></td>
+<td><p>Acquisition Date</p></td>
+<td><p>Tanggal Dilakukan Akuisisi</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>7</p></td>
+<td><p>Depreciation Start</p></td>
+<td><p>Tanggal Dimulai Depresiasi Barang Fixed Asset Tersebut</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>8</p></td>
+<td><p>Asset Value</p></td>
+<td><p>Nilai Asset (Harga Barang Asset)</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>9</p></td>
+<td><p>Description</p></td>
+<td><p>Keterangan Transaksi</p></td>
+</tr>
+<tr class="row-odd"><td class="text-right"><p>10</p></td>
+<td><p>Doc. Num</p></td>
+<td><p>Nomor Dokumen Transaksi</p></td>
+</tr>
+<tr class="row-even"><td class="text-right"><p>11</p></td>
+<td><p>Doc. Date</p></td>
+<td><p>Tanggal Pembuatan Dokumen Transaksi</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="pembayaran-pembelian-fixed-asset">
+<h2>Pembayaran Pembelian Fixed Asset<a class="headerlink" href="#pembayaran-pembelian-fixed-asset" title="Permalink to this heading">#</a></h2>
+<ol class="arabic">
+<li><p>Untuk melakukan pembayaran hutang (AP) pembelian fixed asset, maka dapat dilakukan di dalam menu Payable di module Accounting. Klik menu <strong>Payable (PBL)</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/211.jpg" /></p>
+</li>
+<li><p>Kemudian akan ditampilkan daftar dokumen-dokumen yang terdapat pada menu <strong>Payable</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/222.png" /></p>
+</li>
+<li><p>Setelah melakukan <strong>Post Payable</strong>, invoice akan terbentuk otomatis ke dalam Payable. Untuk mencari invoice yang akan dibayar, dengan mencari di kolom pencarian nomor dokumen PO. Kemudian klik tombol <strong>Open</strong>.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/231.png" /></p>
+</li>
+<li><p>Berikut dokumen payable yang terbentuk dan status masih <strong>“Unpaid”</strong>, kemudian klik tombol <strong>Payment</strong> untuk melakukan pembayaran.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/241.png" /></p>
+</li>
+<li><p>Selanjutnya pilih akun pembayaran yang akan digunakan di kolom <strong>Payment Acc</strong>. Dan juga atur tanggal sesuai tanggal pembayaran.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/251.png" /></p>
+</li>
+<li><p>Setelah selesai mengisi form untuk pembayaran, selanjutnya klik tombol <strong>Save</strong> untuk menyetujui pembayaran.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/261.png" /></p>
+</li>
+<li><p>Maka statusnya akan berubah menjadi <strong>“Paid”</strong></p>
+<p><img alt="pembelian-fixed-asset" src="../_images/271.png" /></p>
+</li>
+<li><p>Setelah melakukan pembayaran pada menu <strong>Payable</strong>, maka akan terbentuk jurnal dari pembayaran yang telah dilakukan. Berikut jurnal yang terbentuk setelah melakukan pembayaran.</p>
+<p><img alt="pembelian-fixed-asset" src="../_images/281.png" /></p>
+</li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./business-alur"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="fixed-asset.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Inisialisasi Aset Tetap (Fixed Asset)</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="melakukan-simpanan.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Langkah-langkah Membuat Simpanan</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pembelian-fixed-asset">Pembelian Fixed Asset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#membuat-dokumen-pembelian-fixed-asset">Membuat Dokumen Pembelian Fixed Asset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#penerimaan-barang-fixed-asset-melalui-product-transfer">Penerimaan Barang Fixed Asset Melalui Product Transfer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#akuisisi-fixed-asset">Akuisisi Fixed Asset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pembayaran-pembelian-fixed-asset">Pembayaran Pembelian Fixed Asset</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By JICT
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

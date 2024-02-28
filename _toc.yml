@@ -1,0 +1,131 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+# _toc.yml
+
+
+format: jb-book
+root: intro/intro
+chapters:
+  - title: "Alur Bisnis"
+    file: business-alur/business-alur
+    sections:
+      - title: "Memulai Menggunakan"
+        file: memulai/memulai
+        sections:
+          - file: memulai/buat-user-admin.md
+          - file: memulai/clear-initial-data.md
+      - title: "Mengubah Nama Perusahaan"
+        file: business-alur/ubah-nama-perusahaan
+      - title: "Membuat Saldo Awal"
+        file: business-alur/buat-saldo-awal
+      - title: "Menginisialisasi Kas atau Bank"
+        file: business-alur/inisialisasi-kas-bank
+      - title: "Membuat Master Barang"
+        file: business-alur/master-barang
+      - title: "Menginisialisi Stok"
+        file: business-alur/inisialisasi-stok
+      - title: "Melakukan Transaksi Jual Langsung"
+        file: business-alur/transaksi-jual-langsung
+      - title: "Melakukan Transaksi Melalui SO"
+        file: business-alur/transaksi-melalui-so
+      - title: "Melakukan Pembelian Langsung"
+        file: business-alur/pembelian-langsung
+      - title: "Melakukan Pembelian PO (Pre-Order)"
+        file: business-alur/pembelian-po
+      - title: "Melakukan Transaksi Biaya Operasional"
+        file: business-alur/transaksi-biaya-operasional
+      - title: "Membuat Laporan Keuangan"
+        file: business-alur/laporan-keuangan
+      - title: "Melakukan Penggajian Karyawan"
+        file: business-alur/penggajian-karyawan
+      - title: "Menginisialisasi Aset Tetap (Fixed Asset) "
+        file: business-alur/fixed-asset
+      - title: "Melakukan Pembelian Aset Tetap (Fixed Asset)"
+        file: business-alur/pembelian-fixed-asset
+      - title: "Memasukan Simpanan"
+        file: business-alur/melakukan-simpanan
+      - title: "Memasukan Peminjaman"
+        file: business-alur/melakukan-pinjaman
+      - title: "Melakukan Tarik Simpanan"
+        file: business-alur/melakukan-penarikan
+      - title: "Melakukan Settlement"
+        file: business-alur/melakukan-settlement
+      - title: "Pengajuan Pinjaman Mandiri"
+        file: business-alur/mengajukan-pinjaman-mandiri
+      - title: "Pengajuan Tarik Simpan Mandiri"
+        file: business-alur/mengajukan-tarik-simpan-mandiri
+  - title: "Modules"
+    file: modules/modul-pengenalan
+    sections:
+      - title: "Menu Membership"
+        file: modules/membership/membersh
+        sections:
+          - title: "Member Master Data"
+            file: modules/membership/member-master
+          - title: "Pinjaman"
+            file: modules/membership/pinjaman
+          - title: "Simpanan"
+            file: modules/membership/simpanan
+          - title: "Member Self-service"
+            file: modules/membership/member-selfservice
+          - title: "Membership Setting"
+            file: modules/membership/membership-setting
+          - title: "Reporting"
+            file:  modules/membership/reporting
+      - title: "Menu Accounting"
+        file: modules/accounting/accountin
+        sections:
+          - title: "Journal"
+            file: modules/accounting/journal
+          - title: "Payable"
+            file: modules/accounting/payable
+          - title: "Receivable"
+            file: modules/accounting/receivable
+          - title: "Fixed Asset"
+            file: modules/accounting/fixed-asset
+          - title: "Internal Account"
+            file: modules/accounting/internal-account
+          - title: "Accounting Setting"
+            file: modules/accounting/accounting-setting
+      - title: "Menu Personnel Management"
+        file: modules/personel/personell
+        sections:
+          - title: "Employee Data"
+            file: modules/personel/employee-data
+          - title: "Payroll Process"
+            file: modules/personel/payroll-process
+          - title: "HR Setting"
+            file: modules/personel/hr-setting
+      - title: "Menu Procurement"
+        file: modules/procurement/procure
+        sections:
+          - title: "Direct Purchase"
+            file: modules/procurement/direct-purchase
+          - title: "Purchase Order"
+            file: modules/procurement/purchase-order
+      - title: "Menu Product Management"
+        file: modules/product management/product-manageme
+        sections:
+          - title: "Product Master"
+            file: modules/product management/product-master
+          - title: "Product Setting"
+            file: modules/product management/product-setting
+          - title: "Product Transfer"
+            file: modules/product management/product-transfer
+          - title: "Stock Overview"
+            file: modules/product management/stock-overview
+      - title: "Menu Sales"
+        file: modules/sales/sale
+        sections:
+          - title: "Direct Sales"
+            file: modules/sales/direct-sales
+          - title: "Sales Order"
+            file: modules/sales/sales-order
+          - title: "Sales Setting"
+            file: modules/sales/sales-setting
+
+        
+
+
+
